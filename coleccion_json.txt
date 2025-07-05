@@ -1,0 +1,42 @@
+[
+    {
+        "id": 36,
+        "nombre": "Cafe La Virginia 20 saquitos",
+        "categoria": "Almacen",
+        "precio": 1500.0,
+        "cantidadEnStock": 16,
+        "pathFoto": null
+    },
+    {
+        "id": 37,
+        "nombre": "Te la morenita 20 saquitos",
+        "categoria": "Almacen",
+        "precio": 200.5,
+        "cantidadEnStock": 8,
+        "pathFoto": null
+    },
+    {
+        "id": 38,
+        "nombre": "Te Crysf 20 saquitos",
+        "categoria": "Almacen",
+        "precio": 500.5,
+        "cantidadEnStock": 25,
+        "pathFoto": null
+    },
+    {
+        "id": 39,
+        "nombre": "Cafe Nescafe 50 saquitoss",
+        "categoria": "almacen",
+        "precio": 3000.0,
+        "cantidadEnStock": 2,
+        "pathFoto": null
+    },
+    {
+        "id": 41,
+        "nombre": "Cafe Dolca 50 saquitos",
+        "categoria": "Almacen",
+        "precio": 5000.0,
+        "cantidadEnStock": 23,
+        "pathFoto": null
+    }
+]
