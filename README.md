@@ -1,7 +1,7 @@
 # TalentoTechJavaBackEndProyectoFinal
 
 
-##Codigo SQL de la base de datos
+#Codigo SQL de la base de datos
 
 -- MySQL dump 10.13  Distrib 8.0.42, for Win64 (x86_64)
 --
@@ -62,7 +62,7 @@ UNLOCK TABLES;
 
 
 
-##Coleccion JSON que coincide con el contenido de la base de datos
+#Coleccion JSON que coincide con el contenido de la base de datos
 [
     {
         "id": 36,
