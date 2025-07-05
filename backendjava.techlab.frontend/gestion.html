@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sibelius - tes y cafes - Gestion</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+    <header>Sibelius - tes y cafes</header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li> |
+            <li><a href="gestion.html">Gestion</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Gestion de productos</h1>
+        <button id="btnActualizar" onclick="obtenerProductos()">Actualizar</button> 
+        <button id="btnAgregar" onclick="agregarProducto()">Agregar</button>
+        <button id="btnVaciar" onclick="vaciarTabla()">Vaciar tabla (no borra)</button>
+        <table id="tblProductos" class="table table-striped" >
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Categoria</th>
+                    <th>Stock</th>
+                    <th>Precio</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+            
+        </table>
+        <div id="agregar-producto-modal">
+            <div id="agregar-producto-content">
+                <h2>Agregar producto</h2>
+                <label for="nombre">Nombre</label><input id="nombre" name="nombre" type="text" required> 
+                <label for="categoria">Categoria</label><input id="categoria" name="categoria" type="text" required> 
+                <label for="precio">Precio</label><input id="precio" name="precio" type="number" required> 
+                <label for="cantidadEnStock">Cantidad en stock</label><input id="cantidadEnStock" name="cantidadEnStock" type="number" required> 
+                <button onclick="confirmarAgregadoProducto()">Guardar</button>
+                <button onclick="cancelarAgregadoProducto()">Cancelar</button>
+            </div>
+        </div>
+        <div id="editar-producto-modal">
+            <div id="editar-producto-content">
+                <h2>Editar producto</h2>
+                <div>
+                    <input type="hidden" id="EditarProductoId" name="EditarProductoId">
+                    <label for="EditarProductoNombre">Nombre: </label><input id="EditarProductoNombre" name="EditarProductoNombre" type="text" required> 
+                    <label for="EditarProductoCategoria">Categoria: </label><input id="EditarProductoCategoria" name="EditarProductoCategoria" type="text" required> 
+                    <label for="EditarProductoPrecio">Precio: </label><input id="EditarProductoPrecio" name="EditarProductoPrecio" type="number" required> 
+                    <label for="EditarProductoCantidadEnStock">Cantidad en stock: </label><input id="EditarProductoCantidadEnStock" name="EditarProductoCantidadEnStock" type="number" required> 
+                </div>
+                
+                <button onclick="confirmarEditarProducto()">Guardar</button>
+                <button onclick="cancelarEditarProducto()">Cancelar</button>
+            </div>
+        </div>
+    </main>
+    <footer> &COPY; 2025 - Sibelius - Todos los derechos reservados</footer>
+    
+    <script src="js/scripts.js"></script>
+</body>
+</html>
