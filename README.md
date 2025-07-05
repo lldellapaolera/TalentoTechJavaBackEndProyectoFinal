@@ -1,5 +1,7 @@
 # TalentoTechJavaBackEndProyectoFinal
 
+# Video donde se muestra del funcionamiento
+https://www.loom.com/share/2a87be3a6c014bc089bfeac9642ad55d
 
 # Codigo SQL de la base de datos
 

@@ -39,12 +39,16 @@
         <div id="agregar-producto-modal">
             <div id="agregar-producto-content">
                 <h2>Agregar producto</h2>
-                <label for="nombre">Nombre</label><input id="nombre" name="nombre" type="text" required> 
-                <label for="categoria">Categoria</label><input id="categoria" name="categoria" type="text" required> 
-                <label for="precio">Precio</label><input id="precio" name="precio" type="number" required> 
-                <label for="cantidadEnStock">Cantidad en stock</label><input id="cantidadEnStock" name="cantidadEnStock" type="number" required> 
-                <button onclick="confirmarAgregadoProducto()">Guardar</button>
-                <button onclick="cancelarAgregadoProducto()">Cancelar</button>
+                <div id="agregar-producto-campos">
+                    <label for="nombre">Nombre: </label><input id="nombre" name="nombre" type="text" required> 
+                    <label for="categoria">Categoria: </label><input id="categoria" name="categoria" type="text" required> 
+                    <label for="precio">Precio: </label><input id="precio" name="precio" type="number" required> 
+                    <label for="cantidadEnStock">Stock: </label><input id="cantidadEnStock" name="cantidadEnStock" type="number" required>                 
+                </div>
+                <div id="agregar-producto-botones">
+                    <button onclick="confirmarAgregadoProducto()">Guardar</button> 
+                    <button onclick="cancelarAgregadoProducto()">Cancelar</button>
+                </div>
             </div>
         </div>
         <div id="editar-producto-modal">

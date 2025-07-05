@@ -132,6 +132,20 @@ footer{
     padding: 20px;
     border-radius: 10px;
     width: 300px;
+    text-align: right;
+}
+
+#agregar-producto-content h2 {
+    text-align: center;
+}
+
+#agregar-producto-botones {
+    margin-top: 1em;
+    text-align: right;
+}
+
+#agregar-producto-content input {
+    margin-top: 1em;
 }
 
 #editar-producto-modal {
