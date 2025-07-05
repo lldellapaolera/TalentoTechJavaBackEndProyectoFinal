@@ -3,6 +3,8 @@
 
 # Codigo SQL de la base de datos
 
+```sql
+
 -- MySQL dump 10.13  Distrib 8.0.42, for Win64 (x86_64)
 --
 -- Host: 127.0.0.1    Database: techlabdb
@@ -58,7 +60,7 @@ UNLOCK TABLES;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
 -- Dump completed on 2025-07-05 11:12:48
-
+```
 
 
 
