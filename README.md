@@ -65,6 +65,7 @@ UNLOCK TABLES;
 
 
 # Coleccion JSON que coincide con el contenido de la base de datos
+```json
 [
     {
         "id": 36,
@@ -107,3 +108,4 @@ UNLOCK TABLES;
         "pathFoto": null
     }
 ]
+```
